@@ -1,3 +1,7 @@
+//Java doesn't explicitly provide a built-in FCFS scheduling mechanism, 
+//but we can do it using thread management techniques like manually starting threads in a particular order 
+///and making sure they complete before starting the next one.
+
 class Task implements Runnable {
     private String taskName;
 
